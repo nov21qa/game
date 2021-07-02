@@ -1,0 +1,24 @@
+//Kindly Capitalise 
+
+//for system manipulate
+.run_0 mobile
+#scores0
+
+//for user manipulate : 
+.run_1
+#scores1
+
+//out ho raha run badhne ke baad 
+usko change karna padega    DONE
+//boh for system and user 
+function -> oneWicketDown
+
+ensure that toss happens only once 
+
+
+const ans = document.querySelector('input[name="selectWicket"]:checked').value;
+
+
+//1 for user 
+//0 for sytem 
+for batting and bowling respectively
