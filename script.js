@@ -13,8 +13,7 @@ fetch("https://apg-saavn-api.herokuapp.com/song/?q=https://www.jiosaavn.com/song
         
         
         console.log(data);
-    }
-    )
+})
 const commentaryforBatting = 
 {
     speak_10 : ["Waits for it and then pulls it handsomely over the mid-wicket fence...BONUS 10",
