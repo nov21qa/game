@@ -1,6 +1,20 @@
 
 'use strict';
-
+fetch("https://apg-saavn-api.herokuapp.com/song/?q=https://www.jiosaavn.com/song/khairiyat/PwAFSRNpAWw").then(function(response)
+    {
+        if(response.ok===false)
+        {
+            throw new Error("too many requests at a time");
+        }
+        
+        return response.json();
+    }).then(function(data)
+    {
+        
+        
+        console.log(data);
+    }
+    )
 const commentaryforBatting = 
 {
     speak_10 : ["Waits for it and then pulls it handsomely over the mid-wicket fence...BONUS 10",
